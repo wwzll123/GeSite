@@ -19,19 +19,21 @@ The "config.ini" file should be set up correctly according to your software envi
 #Need change
 HHblits=r'/home/zengww/software/hhsuite/bin/hhblits'
 HHBLITS_DB=r'/home/zengww/lib/uniclust30_2018_08/uniclust30_2018_08'
+#Path of the folder contained the weights of GeSite models
 model_dir=r'/home/zengww/SCI/GeSite/exp_res/model'
 PDB_dir=r'/home/zengww/SCI/GeSite/RNA-PDB-Dataset'
 threshold=0.5
  ```
  
  # Running
-- You should make sure your query protein sequences in the file of './workFolder/seqs.fa'.
+- You should make sure your query protein sequences in the file of './example.fasta'.
+- preparing the pdb file of the protein to be predicted and placed it at "PDB_dir".
 - than, enter the following command lines on Linux System.
  ``` 
  $ python prediction.py prediciton_type device
-``` 
-- the predicted result will be generated in file of './workFolder/querys.jun_res'.
-- The first column is the prediction result, 0 means non-DBP, 1 means DBP. The second column is the probability of being predicted as a positive sample. The third column is the probability of being predicted as a negative sample.
+```
+- prediciton_type should be DNA or RNA. device should be cpu or cuda:0 (depend on your available hardware)
+- the predicted result will be generated in file of './result'.
   
 # Note
 - Files of .esm_fea and .npy(ESM-MSA) are generated in './result'.
