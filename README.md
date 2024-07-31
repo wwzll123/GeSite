@@ -27,7 +27,7 @@ threshold=0.5
  
  # Running
 - You should make sure your query protein sequences in the file of './example.fasta'.
-- preparing the pdb file of the protein to be predicted and placed it at "PDB_dir".
+- preparing the pdb files of the proteins to be predicted and placed it at "PDB_dir".
 - than, enter the following command lines on Linux System.
  ``` 
  $ python prediction.py prediciton_type device
