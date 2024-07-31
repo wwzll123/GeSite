@@ -8,7 +8,7 @@ The data and standalone program of GeSite.
 - Linux system
 # Installation:
 - First, download the source code in this repository.
-- second, download the weights of all GeSite models in https://huggingface.co/zengwenwu/GeSite/tree/main, and make sure they are located in the same folder.
+- second, download the weights of all GeSite models in https://huggingface.co/zengwenwu/GeSite/tree/main (ESM-RBP.model, GeSite_DBS.model, and GeSite_RBS.model) and https://huggingface.co/zengwenwu/ESM-DBP/tree/main (ESM-DBP.model), and make sure they are located in the same folder.
 
 
 # Set config
