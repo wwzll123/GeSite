@@ -12,25 +12,16 @@ The data and standalone program of GeSite.
 
 
 # Set config
-The files of “Config.properties” and "config.ini" should be set as follows:
+The "config.ini" file should be set up correctly according to your software environment:
 
-* Config.properties
- ```
-DBS_PRED_MODEL=./jar/model/dbs/dbs.mod
-BLAST_BIN_DIR=./jar/tools/blast-2.2.26
-BLASTPGP_EXE_PATH=./jar/tools/blast-2.2.26/blastpgp
-
-#Need change
-SANN_RUNNER_PATH=Absolute_Path_SANN_Installtion/SANN/sann/bin/sann.sh
-BLASTPGP_DB_PATH=Absolute_Path_nr_Installtion/nr
-```
-* config.ini
+* config.py
  ``` 
-[PATH]
-
 #Need change
-TPSO_HOME=/data0/junh/stu/wenwuzeng/software/TPSO_DBP
-PSIPRED_HOME=Absolute_Path_PSIPRED_Installtion/psipred321
+HHblits=r'/home/zengww/software/hhsuite/bin/hhblits'
+HHBLITS_DB=r'/home/zengww/lib/uniclust30_2018_08/uniclust30_2018_08'
+model_dir=r'/home/zengww/SCI/GeSite/exp_res/model'
+PDB_dir=r'/home/zengww/SCI/GeSite/RNA-PDB-Dataset'
+threshold=0.5
  ```
  
  # Running
