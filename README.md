@@ -1,11 +1,11 @@
 # GeSite
 The data and standalone program of GeSite.
 # Pre-requisite:
-- Python(3), java(1.8),numpy(1.20 or higher), pytorch(1.5 or higher)
-- SANN software (https://github.com/newtonjoo/sann)
-- NCBI nr90 database (ftp://ftp.ncbi.nlm.nih.gov/blast/db/FASTA/)
-- PSIPRED(psiped321) software(https://i12r-studfilesrv.informatik.tu-muenchen.de/wiki/index.php/Psipred)
-- Linux system (suggested CentOS 7)
+- Python(3), numpy(1.20 or higher), pandas (1.4.2 or higher), pytorch(1.5 or higher)
+- HHblits software (https://github.com/soedinglab/hh-suite)
+- Uniclust30 database (https://uniclust.mmseqs.com/)
+- ESM2 (https://github.com/facebookresearch/esm)
+- Linux system
 # Installation:
 - First, download compressed packages in (https://github.com/wwzll123/TPSO/tree/main/Standalone_Program)
 - second, download the FileUnion.jar in (https://github.com/wwzll123/TPSO/tree/main/FileSplit)
