@@ -7,15 +7,8 @@ The data and standalone program of GeSite.
 - ESM2 (https://github.com/facebookresearch/esm)
 - Linux system
 # Installation:
-- First, download compressed packages in (https://github.com/wwzll123/TPSO/tree/main/Standalone_Program)
-- second, download the FileUnion.jar in (https://github.com/wwzll123/TPSO/tree/main/FileSplit)
-- third, union these compressed packages using FileUnion.jar by typing the following command
-```
-# [packages folder path] should be the path that contains files of TPSO_DBP.tar.gz_0 ~ TPSO_DBP.tar.gz_20.
-$ java -jar FileUnion.jar [packages folder path] ./TPSO_DBP.tar.gz
-```
-- fourth, uncompress the generated file of TPSO_DBP.tar.gz.
-- fifth, provide executable permissions for file of './jar/tools/blast-2.2.26/blastpgp'.
+- First, download the source code in this repository.
+- second, download the weights of all GeSite models in https://huggingface.co/zengwenwu/GeSite/tree/main, and make sure they are located in the same folder.
 
 
 # Set config
