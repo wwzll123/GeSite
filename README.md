@@ -12,7 +12,7 @@ The data and standalone program of GeSite.
 
 
 # Set config
-The "config.ini" file should be set up correctly according to your software environment:
+The "config.py" file should be set up correctly according to your software environment:
 
 * config.py
  ``` 
