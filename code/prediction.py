@@ -1,7 +1,7 @@
 import egnn_clean
 import torch
 import esm
-import os
+import os,sys
 import pandas as pd
 import esm_msa_feature
 import util
@@ -11,8 +11,8 @@ import numpy as np
 
 
 fasta_path='./example.fasta'
-prediction_type='RNA'
-device='cpu'
+prediction_type=sys.argv[1]
+device=sys.argv[2]
 
 
 # esm-msa feature generate
