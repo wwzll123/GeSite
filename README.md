@@ -42,7 +42,3 @@ threshold=0.5
 - If you have any question, please send email to wwz_cs@126.com.
 - All the best to you!
 
-# Reference
-[1] Wenwu Zeng, Liangrui Pan, Boya Ji, Liwen Xu, and Shaoliang Peng. Accurate nucleic acid-binding residue identification based on domain-adaptive protein language model and explainable geometric deep learning. Submitted.
- 
-
