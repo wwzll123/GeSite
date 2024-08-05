@@ -39,6 +39,5 @@ threshold=0.5
 - Files of .esm_fea and .npy(ESM-MSA) are generated in './result'.
 - If you already have these files, just put them into the corresponding folder, then the feature generator will not run. This will greatly reduce the prediction time.
 - The protein id in your fasta file should be a PDB ID whose last letter indicates the chain to be predicted. For example 5o9z_N.
-- If you have any question, please send email to wwz_cs@126.com.
 - All the best to you!
 
