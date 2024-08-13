@@ -8,7 +8,7 @@ The data and standalone program of GeSite.
 - Linux system
 # Installation:
 - First, download the source code in this repository.
-- second, download the weights of all GeSite models in https://huggingface.co/zengwenwu/GeSite/tree/main (ESM-RBP.model, GeSite_DBS.model, and GeSite_RBS.model) and https://huggingface.co/zengwenwu/ESM-DBP/tree/main (ESM-DBP.model), and make sure they are located in the same folder.
+- second, download the weights of all GeSite models in https://huggingface.co/anonymity/GeSite/tree/main (ESM-RBP.model, GeSite_DBS.model, and GeSite_RBS.model) and https://huggingface.co/anonymity/ESM-DBP/tree/main (ESM-DBP.model), and make sure they are located in the same folder.
 
 
 # Set config
@@ -17,11 +17,11 @@ The "config.py" file should be set up correctly according to your software envir
 * config.py
  ``` 
 #Need change
-HHblits=r'/home/zengww/software/hhsuite/bin/hhblits'
-HHBLITS_DB=r'/home/zengww/lib/uniclust30_2018_08/uniclust30_2018_08'
+HHblits=r'/home/anonymity/software/hhsuite/bin/hhblits'
+HHBLITS_DB=r'/home/anonymity/lib/uniclust30_2018_08/uniclust30_2018_08'
 #Path of the folder contained the weights of GeSite models
-model_dir=r'/home/zengww/SCI/GeSite/exp_res/model'
-PDB_dir=r'/home/zengww/SCI/GeSite/RNA-PDB-Dataset'
+model_dir=r'/home/anonymity/SCI/GeSite/exp_res/model'
+PDB_dir=r'/home/anonymity/SCI/GeSite/RNA-PDB-Dataset'
 threshold=0.5
  ```
  
